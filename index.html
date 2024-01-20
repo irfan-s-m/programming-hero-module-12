@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .font-family {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header class="w-screen h-60 bg-orange-100">
 
-    </header>
-    <section>
-        <div>
-            <div>
-                <img src="" alt="">
+<body>
+    <section class="m-12 flex flex-col lg:flex-row gap-6">
+        <!-- First card -->
+        <div class="font-family shadow-xl rounded-xl p-8">
+            <div class="bg-slate-300 flex justify-center items-center p-10">
+                <img src="images/jacket-4.png" alt="">
             </div>
-            <h2>
+            <h2 class="font-black my-2 text-2xl">
                 Snowboard Jacket Mens
             </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="flex space-x-3">
+                <h3 class="font-bold text-2xl text-emerald-500 p-3">$200</h3>
+                <button class="bg-gradient-to-r from-lime-500 to-lime-900 rounded-lg uppercase text-2xl p-3 text-white"> <svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>Buy Now</button>
+            </div>
         </div>
-        <h3>$200</h3>
-        <button>Buy Now</button>
+        <!-- Second Card -->
+        <div class="font-family shadow-xl rounded-xl p-8">
+            <div class="bg-slate-300 flex justify-center items-center p-10">
+                <img src="images/jacket-5.png" alt="">
+            </div>
+            <h2 class="font-black my-2 text-2xl">
+                Men Leather Jackets
+            </h2>
+            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="flex space-x-3">
+                <h3 class="font-bold text-2xl text-emerald-500 p-3">$290</h3>
+                <button class="bg-gradient-to-r from-lime-500 to-lime-900 rounded-lg uppercase text-2xl p-3 text-white"> <svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>Buy Now</button>
+            </div>
+        </div>
+        <!-- Third Card -->
+        <div class="font-family shadow-xl rounded-xl p-8">
+            <div class="bg-slate-300 flex justify-center items-center p-10">
+                <img src="images/jacket-6.png" alt="">
+            </div>
+            <h2 class="font-black my-2 text-2xl">
+                Men Casual Jackets
+            </h2>
+            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="flex space-x-3">
+                <h3 class="font-bold text-2xl text-emerald-500 p-3">$350</h3>
+                <button class="bg-gradient-to-r from-lime-500 to-lime-900 rounded-lg uppercase text-2xl p-3 text-white"> <svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>Buy Now</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
